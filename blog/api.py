@@ -1,4 +1,5 @@
 from rest_framework import serializers, viewsets
+from .models import PersonalBlog
 
 class PersonalBlogSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
