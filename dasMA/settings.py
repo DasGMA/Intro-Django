@@ -92,14 +92,14 @@ WSGI_APPLICATION = 'dasMA.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd1eishbofsb092',
+        'USER': 'omeopxeiqkwpah',
+        'PASSWORD': 'a1c0d52b23dcfbcd476f93c2c8ab2c0c3f243297aba1f60b40bbb069e2534734',
+        'HOST': 'ec2-75-101-138-26.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
-
-# DATABASES['default'] =  dj_database_url.config()
-DATABASES['default'] = dj_database_url.config(default='postgres://...')
-DATABASES['default'] = dj_database_url.parse('postgres://...', conn_max_age=600)
 
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
@@ -140,6 +140,3 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 CORS_ORIGIN_ALLOW_ALL = True
-
-
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
