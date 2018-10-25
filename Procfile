@@ -1,0 +1,1 @@
+web: gunicorn dasMA.wsgi --log-file -

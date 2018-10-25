@@ -19,7 +19,6 @@ from rest_framework.authtoken import views
 from rest_framework import routers
 from blog.api import PersonalBlogViewSet
 
-
 router = routers.DefaultRouter()
 router.register(r'blog', PersonalBlogViewSet)
 
