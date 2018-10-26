@@ -93,7 +93,7 @@ WSGI_APPLICATION = 'dasMA.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd5hghfo2',
+        'NAME': 'd5hghfo2jg7qtm',
         'USER': 'lovsqapeybtras',
         'PASSWORD': 'c590e8b3a10510d1b4491ae6b11ef7dbf1351dc1da87464c557cac307e2f47cd',
         'HOST': 'ec2-54-225-115-234.compute-1.amazonaws.com',
