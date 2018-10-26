@@ -93,10 +93,10 @@ WSGI_APPLICATION = 'dasMA.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd1eishbofsb092',
-        'USER': 'omeopxeiqkwpah',
-        'PASSWORD': 'a1c0d52b23dcfbcd476f93c2c8ab2c0c3f243297aba1f60b40bbb069e2534734',
-        'HOST': 'ec2-75-101-138-26.compute-1.amazonaws.com',
+        'NAME': 'd5hghfo2',
+        'USER': 'lovsqapeybtras',
+        'PASSWORD': 'c590e8b3a10510d1b4491ae6b11ef7dbf1351dc1da87464c557cac307e2f47cd',
+        'HOST': 'ec2-54-225-115-234.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
